@@ -1,4 +1,4 @@
 # searsjm.github.io
-####Personal Website 
+### James Sears' Personal Website 
 
-This is the repository for me personal website.
+This is the repository for my personal website.
