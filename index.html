@@ -1,122 +1,248 @@
 <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Personal Website" />
+        <meta name="author" content="James Sears" />
+        <title>James Sears</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet" type="text/css"> 
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">James Sears</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.png" alt="" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">Main</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="research.html">Research</a></li>
+                    <!-- TO FINISH: <li class="nav-item"><a class="nav-link js-scroll-trigger" href="teaching.html">Teaching</a></li> -->
+					<!-- 
+						Make a dropdown
+					-->
+                    <!-- TO FINISH: <li class="nav-item"><a class="nav-link js-scroll-trigger" href="cv.html">CV</a></li> -->
+                    <!-- TO FINISH: <li class="nav-item"><a class="nav-link js-scroll-trigger" href="about.html">About</a></li> -->
+                    <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>-->
+                </ul>
+				
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                  <h2 class="mb-1" style="font-family: 'Roboto Condensed'">
+                      James Sears
+                  </h2>
+                  <div class="subheading mb-5"> 
+                      <p> PhD Candidate<br>   Department of Agricultural and Resource Economics ·  UC Berkeley<br> <a href="mailto:james.sears@berkeley.edu">james.sears@berkeley.edu</a> </p>
+                    </div>
+                  <p class="lead mb-5">I am a PhD candidate in the <a href="https://are.berkeley.edu">Department of Agricultural and Resource Economics</a> at the <a href="https://www.berkeley.edu">University of California, Berkeley</a>.&nbsp;&nbsp;</p>
+					
+				  <p class="lead mb-5">My research interests include environment and energy economics, health economics, public economics, and applied microeconometrics. Recent topics include <a href = "https://escholarship.org/uc/item/5h97n884#main">COVID-19 stay-at-home policies, travel behavior changes, and resulting health impacts</a>, social pressure and residential water use, the interplay between local and federal nutrition assistance, and the effect of reputation on online markets for illicit goods. &nbsp;&nbsp;</p>
+					
+					<p class="lead mb-5">My teaching includes intermediate microeconomics, applied econometrics, and data science for undergraduates, along with intermediate microeconomics and data for decision-making for executive MBAs. I use interactive online resources to teach R and statistics, and create remote content for <a href= "https://haas.berkeley.edu/haas-digital/">Haas Digital</a>.  </p>
+					
+				<p class="lead mb-5">I completed my undergraduate degree in the <a href= "https://are.ucdavis.edu/">Department of Agricultural and Resource Economics at UC Davis</a> and obtained an MS in Applied Economics from the <a href= "https://are.ucdavis.edu/">Department of Agricultural Economics and Economics at Montana State</a>.</p>
+					
+                    <div class="social-icons">
+						<a class="social-icon" href="https://github.com/searsjm"><i class="fab fa-github"></i></a>
+                      <a class="social-icon" href="https://www.linkedin.com/in/jamessearsecon"><i class="fab fa-linkedin-in"></i></a>
+                        <!--<a class="social-icon" href="https://twitter.com/jamessearsecon"><i class="fab fa-twitter"></i></a>-->
+                        <!--<a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>-->
+                    </div>
+                </div>
+            </section>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-
-<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<title>James Sears</title>
-
-    <style>
-        /* Modify the background color */
-
-        .navbar-custom {
-            background-color: #003262 ;
-        }
-        /* Modify brand and text color */
-
-        /* change the brand and text color */
-        .navbar-custom .navbar-brand,
-        .navbar-custom .navbar-text {
-            color: rgba(255,255,255,.8);
-        }
-
-        /* change the link color */
-        .navbar-custom .navbar-nav .nav-link {
-            color: rgba(255,255,255,.5);
-        }
-
-
-    </style>
-
-<style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #ebf5ff;
-}
-
-.topnav a {
-  float: left;
-  color: #ebf5ff;
-  text-align: center;
-  padding: 16px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-/* previous: #ddd */
-.topnav a:hover {
-  background-color: #C4820F;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-</style>
-
-</head>
-
-<body>
-
-
-<nav class="navbar navbar-custom"">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">James Sears</a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="research.html">Research</a></li>
-        <li><a href="teaching.html">Teaching</a></li>
-        <li><a href="cv.html">CV</a></li>
-  	 <li class="dropdown">
-       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-      	About
-
-      <span class="caret"></span>
-    </a>
-    <ul class="dropdown-menu" role="menu">
-      <li>
-        <a href="bio.html">Bio</a>
-      </li>
-      <li>
-        <a href="contact.html">Contact</a>
-      </li>
-    </ul>
-  </li>
-      </ul>
-    </div>
-  </nav>
-
-
-<div class="fluid-row" id="header">
-
-<h1 class="title toc-ignore">James Sears</h1>
-
-</div>
-
-<p><img align="right" src="Photos/ere.jpg" width = "400" HSPACE = "50"></p>
-<font color="#6880d3">
-<h3>
-PhD Candidate <br> University of California, Berkeley <br>
-</h3>
-<h4> Department of Agricultural and Resource Economics</h4>
-<p></font></p>
-<p><br> <!-- <br> --> <!-- <br> --> <!-- <br> --></p>
-<p>James Sears is a PhD candidate in the <a href="https://are.berkeley.edu">Department of Agricultural and Resource Economics</a> at the <a href="https://www.berkeley.edu">University of California, Berkeley</a>.
-His main research interests include environment, energy, natural resource, and public economics.
-His work frequently involves web scraping, spatial analysis, and machine learning.
-</p>
-
-</body>
+            <hr class="m-0" />
+            <!-- Experience-->
+ <!--           <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Senior Web Developer</h3>
+                            <div class="subheading mb-3">Intelitec Solutions</div>
+                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Web Developer</h3>
+                            <div class="subheading mb-3">Intelitec Solutions</div>
+                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Junior Web Designer</h3>
+                            <div class="subheading mb-3">Shout! Media Productions</div>
+                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Web Design Intern</h3>
+                            <div class="subheading mb-3">Shout! Media Productions</div>
+                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+-->
+            <!-- Education-->
+			<!--
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">University of Colorado Boulder</h3>
+                            <div class="subheading mb-3">Bachelor of Science</div>
+                            <div>Computer Science - Web Development Track</div>
+                            <p>GPA: 3.23</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">James Buchanan High School</h3>
+                            <div class="subheading mb-3">Technology Magnet Program</div>
+                            <p>GPA: 3.56</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+-->
+            <!-- Skills-->
+			<!--
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Mobile-First, Responsive Design
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Browser Testing & Debugging
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Functional Teams
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+-->
+            <!-- Interests-->
+			<!--
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+-->
+            <!-- Awards-->
+			<!--
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Google Analytics Certified Developer
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Mobile Web Specialist - Google Certification
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2
+                            <sup>nd</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - James Buchanan High School - Hackathon 2006
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            3
+                            <sup>rd</sup>
+                            Place - James Buchanan High School - Hackathon 2005
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+		-->
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
