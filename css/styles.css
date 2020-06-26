@@ -478,6 +478,10 @@ mark,
   max-width: 100%;
   height: auto;
 }
+.img-fluid-s {
+  max-width: 75%;
+  height: auto;
+}
 
 .img-thumbnail {
   padding: 0.25rem;
